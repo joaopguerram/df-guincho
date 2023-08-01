@@ -1,10 +1,12 @@
 header {
   display: flex;
   flex-direction: column;
-  width: 80%;
+  width: 100%;
   padding: 50px 10px 10px 10px;
   justify-content: center;
+  align-items: center;
   margin: 0 auto;
+  box-shadow: 0px 1px 20px rgb(207, 203, 203);
 }
 
 header > img {
@@ -17,6 +19,7 @@ header > ul {
   flex-direction: row;
   justify-content: space-between;
   list-style: none;
+  width: 80%;
   margin: 40px 0;
   padding: 0;
 }
@@ -43,11 +46,4 @@ header > a {
   border: 1px solid var(--secondary-color);
   border-radius: 8px;
   margin: 0 auto;
-}
-
-header > hr {
-  width: 100%;
-  height: 0.3px;
-  background-color: var(--white-color1);
-  box-shadow: 0px 4px 11px black;
 }

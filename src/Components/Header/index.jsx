@@ -19,7 +19,6 @@ const Header = () => {
       >
         Fale conosco!
       </a>
-      <hr />
     </header>
   );
 };

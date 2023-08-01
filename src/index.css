@@ -19,11 +19,13 @@ body {
   --grey-scale-3: #606060;
   --white-color-1: #dfdfdf;
   --white-color: #ffffff;
+  --white-color-2: #aaaaaa;
 
   --font-size-0: 0.8rem;
   --font-size-1: 1rem;
   --font-size-2: 1.2rem;
   --font-size-3: 1.5rem;
+  --font-size-4: 2rem;
 
   --font-weigth-300: 300;
   --font-weigth-400: 400;
