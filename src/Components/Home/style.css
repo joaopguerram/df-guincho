@@ -7,7 +7,7 @@
   color: #000000;
   text-align: center;
   padding: 20px 10px;
-  font-family: "Roboco" sans-serif;
+  font-family: "Roboco", sans-serif;
   font-size: var(--font-size-4);
   font-weight: var(--font-weigth-700);
 }

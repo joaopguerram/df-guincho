@@ -2,9 +2,7 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  background-image: url("./assets/background-carro.png"),
-    url("./assets/background-caminhao.png");
-  background-repeat: no-repeat, no-repeat;
+  background-image: url("./assets/background-1.png");
   background-position: top, bottom;
   width: 100vw;
   height: 100%;
