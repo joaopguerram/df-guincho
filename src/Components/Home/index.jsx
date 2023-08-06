@@ -11,6 +11,14 @@ const Home = () => {
         veiculos, pátio com monitoramento de câmeras e totalmente cercado.
         Serviço de troca de pneu, carga de bateria e pane seca.
       </p>
+      <a
+        href="https://wa.me/+5561999227170"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="contact-2"
+      >
+        Fale conosco!
+      </a>
     </div>
   );
 };

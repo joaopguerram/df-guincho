@@ -6,10 +6,9 @@ header {
   justify-content: center;
   align-items: center;
   margin: 0 auto;
-  box-shadow: 0px 1px 20px rgb(207, 203, 203);
 }
 
-header > img {
+.logo > img {
   max-width: 340px;
   max-height: 185px;
 }
@@ -30,7 +29,7 @@ header > ul > li {
   font-weight: var(--font-weigth-500);
 }
 
-header > a {
+.contact {
   display: flex;
   text-decoration: none;
   color: var(--primary-color);
@@ -42,8 +41,33 @@ header > a {
   padding: 5px 20px;
   text-align: center;
   align-items: center;
-  background-color: var(--third-color);
+  background-color: var(--secondary-color);
   border: 1px solid var(--secondary-color);
   border-radius: 8px;
   margin: 0 auto;
+}
+
+.contact:hover {
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 90vw;
+  }
+
+  header > ul {
+    width: 70%;
+    margin: 40px 50px 40px 40px;
+    align-items: center;
+  }
+
+  .contact {
+    margin: 0 0 0 20px;
+  }
 }

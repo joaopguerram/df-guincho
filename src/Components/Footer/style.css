@@ -1,0 +1,12 @@
+footer {
+  width: 100%;
+  margin: 200px 0 0 0;
+}
+
+footer > img {
+  width: 100%;
+}
+
+footer > p {
+  text-align: center;
+}

@@ -1,0 +1,26 @@
+.container-cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: 100px auto;
+}
+
+.container-cards > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 10px 30px 10px;
+  width: 45%;
+  background-color: var(--primary-color);
+}
+
+.container-cards > div > p {
+  padding: 0 10px;
+  text-align: center;
+}
+
+.container-cards > div:hover {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+}

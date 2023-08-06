@@ -2,17 +2,19 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  background-color: var(--white-color-1);
+  background-image: url("./assets/background-carro.png"),
+    url("./assets/background-caminhao.png");
+  background-repeat: no-repeat, no-repeat;
+  background-position: top, bottom;
   width: 100vw;
-  height: 100vh;
+  height: 100%;
   padding: 0;
   margin: 0;
 }
 
 :root {
-  --primary-color: #142e48;
-  --secondary-color: #f6080f;
-  --third-color: #eea78d;
+  --primary-color: #ec7b1f;
+  --secondary-color: #000000;
   --grey-scale-0: #000000;
   --grey-scale-1: #202020;
   --grey-scale-2: #464646;
